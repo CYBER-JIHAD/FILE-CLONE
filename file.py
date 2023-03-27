@@ -1,7 +1,5 @@
 import os, sys
-os.system('clear')
-os.system('git pull')
 try:
-    __import__("a").menu()
+    __import__("f").menu()
 except Exception as e:
     exit(str(e))
